@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="990" viewBox="0 0 1600 990" style="font-family:Inter,'DejaVu Sans',sans-serif"><rect width="1600" height="990" fill="#FFFFFF"/><text x="40" y="48" font-size="24" font-weight="700" fill="#0B2545" text-anchor="start" >As-Built Logical Topology — London ⇄ Manchester Multi-Site Network</text><text x="40" y="74" font-size="14" font-weight="500" fill="#5B6B7C" text-anchor="start" >Two-tier collapsed-core design per site · Layer 3 SVI routing · RIPv2 end-to-end · 4 offices · 40 endpoints (designed for 50 staff)</text><rect x="150" y="100" width="700" height="780" rx="18" fill="#F4F8FC" stroke="#D5E1EC"/><rect x="870" y="100" width="700" height="780" rx="18" fill="#F3FAF8" stroke="#D2E8E3"/><text x="172" y="130" font-size="13" font-weight="800" fill="#1F4E79" text-anchor="start" letter-spacing='2'>LONDON SITE</text><text x="172" y="148" font-size="11.5" font-weight="500" fill="#5B6B7C" text-anchor="start" >192.168.10.0/24 · VLSM /26 + /30 · london.local</text><text x="892" y="130" font-size="13" font-weight="800" fill="#0E5E55" text-anchor="start" letter-spacing='2'>MANCHESTER SITE</text><text x="892" y="148" font-size="11.5" font-weight="500" fill="#5B6B7C" text-anchor="start" >172.16.0.0/16 · /24 per VLAN · manchester.local</text><line x1="150" y1="215" x2="1570" y2="215" stroke="#E3EAF1" stroke-dasharray="2 6"/><text x="28" y="220" font-size="11.5" font-weight="800" fill="#7C8EA0" text-anchor="start" letter-spacing='1.5'>WAN EDGE</text><line x1="150" y1="390" x2="1570" y2="390" stroke="#E3EAF1" stroke-dasharray="2 6"/><text x="28" y="395" font-size="11.5" font-weight="800" fill="#7C8EA0" text-anchor="start" letter-spacing='1.5'>CORE / DIST.</text><line x1="150" y1="560" x2="1570" y2="560" stroke="#E3EAF1" stroke-dasharray="2 6"/><text x="28" y="565" font-size="11.5" font-weight="800" fill="#7C8EA0" text-anchor="start" letter-spacing='1.5'>ACCESS</text><line x1="150" y1="780" x2="1570" y2="780" stroke="#E3EAF1" stroke-dasharray="2 6"/><text x="28" y="785" font-size="11.5" font-weight="800" fill="#7C8EA0" text-anchor="start" letter-spacing='1.5'>ENDPOINTS</text><path d="M682 209 L1038 209" stroke="#C8372D" stroke-width="4"/><path d="M855 195 l8 14 l-8 0 l8 14" stroke="#C8372D" stroke-width="3" fill="none"/><g><rect x="696.88" y="228" width="326.23999999999995" height="21.0" rx="10.44" fill="#fff" stroke="#C8372D" stroke-width="1.5"/><text x="860" y="243.84" font-size="12" font-weight="600" fill="#C8372D" text-anchor="middle" >Serial WAN · 10.0.1.0/30 · 64 kbps DCE clock</text></g><text x="690" y="199" font-size="11" font-weight="600" fill="#C8372D" text-anchor="start" >S0/1/0 .2</text><text x="1030" y="199" font-size="11" font-weight="600" fill="#C8372D" text-anchor="end" >S0/1/0 .1</text><line x1="640" y1="233" x2="500" y2="364" stroke="#0B2545" stroke-width="3"/><g><rect x="419.64" y="291.5" width="300.71999999999997" height="19.25" rx="9.57" fill="#fff" stroke="#0B2545" stroke-width="1.5"/><text x="570.0" y="306.02" font-size="11" font-weight="600" fill="#0B2545" text-anchor="middle" >192.168.10.248/30  (Gi0/1 .249 ⇄ Gi0/2 .250)</text></g><line x1="1080" y1="233" x2="1220" y2="364" stroke="#0B2545" stroke-width="3"/><g><rect x="1031.54" y="291.5" width="236.92" height="19.25" rx="9.57" fill="#fff" stroke="#0B2545" stroke-width="1.5"/><text x="1150.0" y="306.02" font-size="11" font-weight="600" fill="#0B2545" text-anchor="middle" >10.0.0.0/30  (Gi0/1 .2 ⇄ Gi0/1 .1)</text></g><line x1="500" y1="414" x2="330" y2="542" stroke="#1F6FB2" stroke-width="2.6" stroke-dasharray="9 6"/><g><rect x="334.555" y="473.0" width="143.89" height="18.375" rx="9.135" fill="#fff" stroke="#1F6FB2" stroke-width="1.5"/><text x="406.5" y="486.86" font-size="10.5" font-weight="600" fill="#1F6FB2" text-anchor="middle" >802.1Q trunk 10,20,30</text></g><line x1="500" y1="414" x2="670" y2="542" stroke="#6A4BB3" stroke-width="2.6" stroke-dasharray="9 6"/><g><rect x="530.69" y="473.0" width="125.61999999999999" height="18.375" rx="9.135" fill="#fff" stroke="#6A4BB3" stroke-width="1.5"/><text x="593.5" y="486.86" font-size="10.5" font-weight="600" fill="#6A4BB3" text-anchor="middle" >802.1Q trunk 10,20</text></g><line x1="1220" y1="414" x2="1050" y2="542" stroke="#0F8C7E" stroke-width="2.6" stroke-dasharray="9 6"/><g><rect x="1063.69" y="473.0" width="125.61999999999999" height="18.375" rx="9.135" fill="#fff" stroke="#0F8C7E" stroke-width="1.5"/><text x="1126.5" y="486.86" font-size="10.5" font-weight="600" fill="#0F8C7E" text-anchor="middle" >802.1Q trunk 10,20</text></g><line x1="1220" y1="414" x2="1390" y2="542" stroke="#C27C0E" stroke-width="2.6" stroke-dasharray="9 6"/><g><rect x="1250.69" y="473.0" width="125.61999999999999" height="18.375" rx="9.135" fill="#fff" stroke="#C27C0E" stroke-width="1.5"/><text x="1313.5" y="486.86" font-size="10.5" font-weight="600" fill="#C27C0E" text-anchor="middle" >802.1Q trunk 10,20</text></g><line x1="330" y1="574" x2="330" y2="680" stroke="#1F6FB2" stroke-width="2.4"/><rect x="190" y="680" width="300" height="190" rx="12" fill="#1F6FB2" fill-opacity=".07" stroke="#1F6FB2" stroke-width="1.6"/><text x="204" y="704" font-size="14" font-weight="700" fill="#1F6FB2" text-anchor="start" >London Office 1 · VLAN 10</text><text x="204" y="722" font-size="11.5" font-weight="500" fill="#5B6B7C" text-anchor="start" >192.168.10.0/26 · GW .1 · DHCP .6–.62</text><g transform="translate(224,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(266,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(308,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(350,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(224,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(266,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(308,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(350,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><text x="287" y="848" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="middle" >8 × wired PCs</text><g transform="translate(418,760) scale(0.9)">
+<rect x="-26" y="-6" width="52" height="16" rx="8" fill="#7A4FB5" stroke="#fff" stroke-width="1.5"/>
+<g stroke="#7A4FB5" stroke-width="2.6" fill="none" stroke-linecap="round">
+<path d="M-10 -14 A14 14 0 0 1 10 -14"/><path d="M-18 -20 A24 24 0 0 1 18 -20"/></g>
+<circle cx="0" cy="2" r="3" fill="#fff"/></g><g transform="translate(394,812) scale(0.85)">
+<rect x="-14" y="-12" width="28" height="18" rx="2" fill="#3B4C5E"/>
+<rect x="-11" y="-9" width="22" height="12" fill="#E8DFF5"/>
+<path d="M-19 7 L19 7 L16 12 L-16 12 Z" fill="#3B4C5E"/></g><g transform="translate(442,812) scale(0.85)">
+<rect x="-14" y="-12" width="28" height="18" rx="2" fill="#3B4C5E"/>
+<rect x="-11" y="-9" width="22" height="12" fill="#E8DFF5"/>
+<path d="M-19 7 L19 7 L16 12 L-16 12 Z" fill="#3B4C5E"/></g><path d="M418 770 L394 798" stroke="#7A4FB5" stroke-width="1.4" stroke-dasharray="3 3"/><path d="M418 770 L442 798" stroke="#7A4FB5" stroke-width="1.4" stroke-dasharray="3 3"/><text x="418" y="848" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="middle" >WPA2 Wi-Fi · 2 laptops</text><line x1="670" y1="574" x2="670" y2="680" stroke="#6A4BB3" stroke-width="2.4"/><rect x="520" y="680" width="300" height="190" rx="12" fill="#6A4BB3" fill-opacity=".07" stroke="#6A4BB3" stroke-width="1.6"/><text x="534" y="704" font-size="14" font-weight="700" fill="#6A4BB3" text-anchor="start" >London Office 2 · VLAN 20</text><text x="534" y="722" font-size="11.5" font-weight="500" fill="#5B6B7C" text-anchor="start" >192.168.10.64/26 · GW .65 · DHCP .70–.126</text><g transform="translate(554,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(596,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(638,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(680,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(554,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(596,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(638,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(680,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><text x="617" y="848" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="middle" >8 × wired PCs</text><g transform="translate(748,760) scale(0.9)">
+<rect x="-26" y="-6" width="52" height="16" rx="8" fill="#7A4FB5" stroke="#fff" stroke-width="1.5"/>
+<g stroke="#7A4FB5" stroke-width="2.6" fill="none" stroke-linecap="round">
+<path d="M-10 -14 A14 14 0 0 1 10 -14"/><path d="M-18 -20 A24 24 0 0 1 18 -20"/></g>
+<circle cx="0" cy="2" r="3" fill="#fff"/></g><g transform="translate(724,812) scale(0.85)">
+<rect x="-14" y="-12" width="28" height="18" rx="2" fill="#3B4C5E"/>
+<rect x="-11" y="-9" width="22" height="12" fill="#E8DFF5"/>
+<path d="M-19 7 L19 7 L16 12 L-16 12 Z" fill="#3B4C5E"/></g><g transform="translate(772,812) scale(0.85)">
+<rect x="-14" y="-12" width="28" height="18" rx="2" fill="#3B4C5E"/>
+<rect x="-11" y="-9" width="22" height="12" fill="#E8DFF5"/>
+<path d="M-19 7 L19 7 L16 12 L-16 12 Z" fill="#3B4C5E"/></g><path d="M748 770 L724 798" stroke="#7A4FB5" stroke-width="1.4" stroke-dasharray="3 3"/><path d="M748 770 L772 798" stroke="#7A4FB5" stroke-width="1.4" stroke-dasharray="3 3"/><text x="748" y="848" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="middle" >WPA2 Wi-Fi · 2 laptops</text><line x1="1050" y1="574" x2="1050" y2="680" stroke="#0F8C7E" stroke-width="2.4"/><rect x="910" y="680" width="300" height="190" rx="12" fill="#0F8C7E" fill-opacity=".07" stroke="#0F8C7E" stroke-width="1.6"/><text x="924" y="704" font-size="14" font-weight="700" fill="#0F8C7E" text-anchor="start" >Manchester Office 1 · VLAN 10</text><text x="924" y="722" font-size="11.5" font-weight="500" fill="#5B6B7C" text-anchor="start" >172.16.10.0/24 · GW .1 · DHCP .2–.254</text><g transform="translate(944,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(986,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(1028,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(1070,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(944,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(986,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(1028,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(1070,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><text x="1007" y="848" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="middle" >8 × wired PCs</text><g transform="translate(1138,760) scale(0.9)">
+<rect x="-26" y="-6" width="52" height="16" rx="8" fill="#7A4FB5" stroke="#fff" stroke-width="1.5"/>
+<g stroke="#7A4FB5" stroke-width="2.6" fill="none" stroke-linecap="round">
+<path d="M-10 -14 A14 14 0 0 1 10 -14"/><path d="M-18 -20 A24 24 0 0 1 18 -20"/></g>
+<circle cx="0" cy="2" r="3" fill="#fff"/></g><g transform="translate(1114,812) scale(0.85)">
+<rect x="-14" y="-12" width="28" height="18" rx="2" fill="#3B4C5E"/>
+<rect x="-11" y="-9" width="22" height="12" fill="#E8DFF5"/>
+<path d="M-19 7 L19 7 L16 12 L-16 12 Z" fill="#3B4C5E"/></g><g transform="translate(1162,812) scale(0.85)">
+<rect x="-14" y="-12" width="28" height="18" rx="2" fill="#3B4C5E"/>
+<rect x="-11" y="-9" width="22" height="12" fill="#E8DFF5"/>
+<path d="M-19 7 L19 7 L16 12 L-16 12 Z" fill="#3B4C5E"/></g><path d="M1138 770 L1114 798" stroke="#7A4FB5" stroke-width="1.4" stroke-dasharray="3 3"/><path d="M1138 770 L1162 798" stroke="#7A4FB5" stroke-width="1.4" stroke-dasharray="3 3"/><text x="1138" y="848" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="middle" >WPA2 Wi-Fi · 2 laptops</text><line x1="1390" y1="574" x2="1390" y2="680" stroke="#C27C0E" stroke-width="2.4"/><rect x="1240" y="680" width="300" height="190" rx="12" fill="#C27C0E" fill-opacity=".07" stroke="#C27C0E" stroke-width="1.6"/><text x="1254" y="704" font-size="14" font-weight="700" fill="#C27C0E" text-anchor="start" >Manchester Office 2 · VLAN 20</text><text x="1254" y="722" font-size="11.5" font-weight="500" fill="#5B6B7C" text-anchor="start" >172.16.20.0/24 · GW .1 · DHCP .2–.254</text><g transform="translate(1274,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(1316,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(1358,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(1400,758) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(1274,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(1316,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(1358,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><g transform="translate(1400,804) scale(0.9)">
+<rect x="-16" y="-14" width="32" height="22" rx="2.5" fill="#3B4C5E"/>
+<rect x="-13" y="-11" width="26" height="16" rx="1" fill="#DCE8F2"/>
+<rect x="-3" y="8" width="6" height="5" fill="#3B4C5E"/><rect x="-10" y="13" width="20" height="3" rx="1.5" fill="#3B4C5E"/></g><text x="1337" y="848" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="middle" >8 × wired PCs</text><g transform="translate(1468,760) scale(0.9)">
+<rect x="-26" y="-6" width="52" height="16" rx="8" fill="#7A4FB5" stroke="#fff" stroke-width="1.5"/>
+<g stroke="#7A4FB5" stroke-width="2.6" fill="none" stroke-linecap="round">
+<path d="M-10 -14 A14 14 0 0 1 10 -14"/><path d="M-18 -20 A24 24 0 0 1 18 -20"/></g>
+<circle cx="0" cy="2" r="3" fill="#fff"/></g><g transform="translate(1444,812) scale(0.85)">
+<rect x="-14" y="-12" width="28" height="18" rx="2" fill="#3B4C5E"/>
+<rect x="-11" y="-9" width="22" height="12" fill="#E8DFF5"/>
+<path d="M-19 7 L19 7 L16 12 L-16 12 Z" fill="#3B4C5E"/></g><g transform="translate(1492,812) scale(0.85)">
+<rect x="-14" y="-12" width="28" height="18" rx="2" fill="#3B4C5E"/>
+<rect x="-11" y="-9" width="22" height="12" fill="#E8DFF5"/>
+<path d="M-19 7 L19 7 L16 12 L-16 12 Z" fill="#3B4C5E"/></g><path d="M1468 770 L1444 798" stroke="#7A4FB5" stroke-width="1.4" stroke-dasharray="3 3"/><path d="M1468 770 L1492 798" stroke="#7A4FB5" stroke-width="1.4" stroke-dasharray="3 3"/><text x="1468" y="848" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="middle" >WPA2 Wi-Fi · 2 laptops</text><g transform="translate(640,215) scale(1.0)">
+<ellipse cx="0" cy="10" rx="40" ry="16" fill="#0E5A8A" opacity=".55"/>
+<rect x="-40" y="-8" width="80" height="18" fill="#0E5A8A"/>
+<ellipse cx="0" cy="-8" rx="40" ry="16" fill="#0E5A8A" stroke="#fff" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round">
+<path d="M-22 -8 L-6 -8 M-11 -13 L-6 -8 L-11 -3"/><path d="M22 -8 L6 -8 M11 -13 L6 -8 L11 -3"/>
+<path d="M0 -20 L0 -13"/><path d="M0 4 L0 -3"/></g></g><text x="640" y="177" font-size="13" font-weight="800" fill="#0B2545" text-anchor="middle" >LONDON-RTR</text><text x="588" y="225" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="end" >Cisco 2911</text><g transform="translate(1080,215) scale(1.0)">
+<ellipse cx="0" cy="10" rx="40" ry="16" fill="#0E5A8A" opacity=".55"/>
+<rect x="-40" y="-8" width="80" height="18" fill="#0E5A8A"/>
+<ellipse cx="0" cy="-8" rx="40" ry="16" fill="#0E5A8A" stroke="#fff" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round">
+<path d="M-22 -8 L-6 -8 M-11 -13 L-6 -8 L-11 -3"/><path d="M22 -8 L6 -8 M11 -13 L6 -8 L11 -3"/>
+<path d="M0 -20 L0 -13"/><path d="M0 4 L0 -3"/></g></g><text x="1080" y="177" font-size="13" font-weight="800" fill="#0B2545" text-anchor="middle" >MANCHESTER-RTR</text><text x="1132" y="225" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="start" >Cisco 2911</text><g transform="translate(500,390) scale(1.0)">
+<rect x="-44" y="-22" width="88" height="48" rx="6" fill="#13615B" opacity=".55" transform="translate(0,6)"/>
+<rect x="-44" y="-26" width="88" height="44" rx="6" fill="#13615B" stroke="#fff" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round">
+<path d="M-16 -14 L16 10 M16 -14 L-16 10"/>
+<path d="M8 -14 L16 -14 L16 -6"/><path d="M-8 10 L-16 10 L-16 2"/>
+<path d="M-16 -6 L-16 -14 L-8 -14"/><path d="M16 2 L16 10 L8 10"/></g></g><text x="440" y="386" font-size="13" font-weight="800" fill="#0B2545" text-anchor="end" >LONDON-CORE</text><text x="440" y="404" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="end" >3560-24PS · L3 · DHCP · SSHv2</text><g transform="translate(1220,390) scale(1.0)">
+<rect x="-44" y="-22" width="88" height="48" rx="6" fill="#13615B" opacity=".55" transform="translate(0,6)"/>
+<rect x="-44" y="-26" width="88" height="44" rx="6" fill="#13615B" stroke="#fff" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round">
+<path d="M-16 -14 L16 10 M16 -14 L-16 10"/>
+<path d="M8 -14 L16 -14 L16 -6"/><path d="M-8 10 L-16 10 L-16 2"/>
+<path d="M-16 -6 L-16 -14 L-8 -14"/><path d="M16 2 L16 10 L8 10"/></g></g><text x="1280" y="386" font-size="13" font-weight="800" fill="#0B2545" text-anchor="start" >MANCHESTER-CORE</text><text x="1280" y="404" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="start" >3560-24PS · L3 · DHCP · SSHv2</text><g transform="translate(330,560) scale(1.0)">
+<rect x="-42" y="-14" width="84" height="32" rx="5" fill="#1F6FB2" opacity=".55" transform="translate(0,6)"/>
+<rect x="-42" y="-18" width="84" height="32" rx="5" fill="#1F6FB2" stroke="#fff" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round">
+<path d="M-24 -8 L20 -8 M14 -12 L20 -8 L14 -4"/><path d="M24 4 L-20 4 M-14 0 L-20 4 L-14 8"/></g></g><text x="382" y="562" font-size="12" font-weight="800" fill="#0B2545" text-anchor="start" >LON-ACC-SW1</text><text x="382" y="578" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="start" >Cisco 2960-24TT</text><g transform="translate(670,560) scale(1.0)">
+<rect x="-42" y="-14" width="84" height="32" rx="5" fill="#6A4BB3" opacity=".55" transform="translate(0,6)"/>
+<rect x="-42" y="-18" width="84" height="32" rx="5" fill="#6A4BB3" stroke="#fff" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round">
+<path d="M-24 -8 L20 -8 M14 -12 L20 -8 L14 -4"/><path d="M24 4 L-20 4 M-14 0 L-20 4 L-14 8"/></g></g><text x="722" y="562" font-size="12" font-weight="800" fill="#0B2545" text-anchor="start" >LON-ACC-SW2</text><text x="722" y="578" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="start" >Cisco 2960-24TT</text><g transform="translate(1050,560) scale(1.0)">
+<rect x="-42" y="-14" width="84" height="32" rx="5" fill="#0F8C7E" opacity=".55" transform="translate(0,6)"/>
+<rect x="-42" y="-18" width="84" height="32" rx="5" fill="#0F8C7E" stroke="#fff" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round">
+<path d="M-24 -8 L20 -8 M14 -12 L20 -8 L14 -4"/><path d="M24 4 L-20 4 M-14 0 L-20 4 L-14 8"/></g></g><text x="1102" y="562" font-size="12" font-weight="800" fill="#0B2545" text-anchor="start" >MAN-ACC-SW1</text><text x="1102" y="578" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="start" >Cisco 2960-24TT</text><g transform="translate(1390,560) scale(1.0)">
+<rect x="-42" y="-14" width="84" height="32" rx="5" fill="#C27C0E" opacity=".55" transform="translate(0,6)"/>
+<rect x="-42" y="-18" width="84" height="32" rx="5" fill="#C27C0E" stroke="#fff" stroke-width="1.5"/>
+<g stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round">
+<path d="M-24 -8 L20 -8 M14 -12 L20 -8 L14 -4"/><path d="M24 4 L-20 4 M-14 0 L-20 4 L-14 8"/></g></g><text x="1442" y="562" font-size="12" font-weight="800" fill="#0B2545" text-anchor="start" >MAN-ACC-SW2</text><text x="1442" y="578" font-size="11" font-weight="500" fill="#5B6B7C" text-anchor="start" >Cisco 2960-24TT</text><rect x="150" y="900" width="1420" height="70" rx="12" fill="#fff" stroke="#E3EAF1"/><line x1="180" y1="935" x2="220" y2="935" stroke="#C8372D" stroke-width="3.5"/><text x="232" y="940" font-size="12.5" font-weight="600" fill="#1B2A3A" text-anchor="start" >Serial WAN (L3 p2p)</text><line x1="450" y1="935" x2="490" y2="935" stroke="#0B2545" stroke-width="3.5"/><text x="502" y="940" font-size="12.5" font-weight="600" fill="#1B2A3A" text-anchor="start" >Routed Gigabit uplink /30</text><line x1="720" y1="935" x2="760" y2="935" stroke="#1F6FB2" stroke-width="2.6" stroke-dasharray="9 6"/><text x="772" y="940" font-size="12.5" font-weight="600" fill="#1B2A3A" text-anchor="start" >802.1Q trunk</text><line x1="990" y1="935" x2="1030" y2="935" stroke="#7A4FB5" stroke-width="1.6" stroke-dasharray="3 3"/><text x="1042" y="940" font-size="12.5" font-weight="600" fill="#1B2A3A" text-anchor="start" >Wireless association</text><text x="1290" y="930" font-size="12" font-weight="700" fill="#0B2545" text-anchor="start" >Routing: RIPv2, no auto-summary</text><text x="1290" y="948" font-size="12" font-weight="500" fill="#5B6B7C" text-anchor="start" >Mgmt: SSHv2 only on VTY · local AAA</text></svg>
