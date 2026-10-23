@@ -197,7 +197,7 @@ A five-phase roadmap (hardening → OSPF/HSRP/dual WAN → NGFW edge → 802.1X/
 
 **Muhammad Sohaib Rafiq**: Cyber Security student (Air University, Islamabad), working on secure network design, malware analysis and threat detection.
 
-🔗 LinkedIn: *[add your profile URL]* · Feedback and collaboration welcome. Open an issue or connect.
+🔗 LinkedIn: *https://www.linkedin.com/in/muhammad-sohaib-rafiq-624703296/* · Feedback and collaboration welcome. Open an issue or connect.
 
 ---
 <sub>Topics: cisco · packet-tracer · ccna · networking · vlan · vlsm · rip · inter-vlan-routing · dhcp · ssh · network-security · network-design</sub>
